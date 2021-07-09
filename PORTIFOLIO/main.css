@@ -1,0 +1,98 @@
+* {
+  margin: 0px;
+  font-family: "Lato", sans-serif;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* css selector:{property:value} */
+/* selector resembles (elements,classes and IDs) */
+/* p{
+        coor:red;
+    } */
+
+/* class */
+.hero-text {
+  font-size: 32px;
+  font-family: "Lato", sans-serif;
+  text-align: justify;
+  color: white;
+}
+
+/* id */
+#logo-text {
+  color: white;
+  display: inline;
+}
+.navbar {
+  background-color: black;
+  height: 10vh;
+}
+.flex-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 10vh;
+  align-items: center;
+}
+.ml {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+.mt {
+  margin-top: 2rem;
+}
+li {
+  list-style: none;
+}
+.navigation-links {
+  display: inline;
+}
+.white-text {
+  color: white;
+}
+
+.hero-section {
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url("/image/bram-naus-n8Qb1ZAkK88-unsplash.jpg");
+  background-size: cover;
+}
+.work-flex {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+}
+.bigtext {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: black;
+  font-weight: 400;
+}
+a {
+  text-decoration: none;
+}
+h4 {
+  font-size: 24px;
+}
+.about-text {
+  margin: 1rem 0;
+  font-size: 16px;
+}
+.about-flex {
+  display: flex;
+}
+.about-section {
+  width: 800px;
+}
+.social-media{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+}
